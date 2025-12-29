@@ -1,0 +1,61 @@
+.portfolio {
+    padding: 94px 0;
+}
+
+.portfolio__filters {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+
+.portfolio__filter {
+  padding: 6px 22px;
+  border: 1px solid #e7e9fc;
+  background: rgba(245, 244, 250, 1);
+  color: rgba(33, 33, 33, 1);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.portfolio__filter:hover {
+    background: rgba(33, 150, 243, 1);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-gap: 24px;
+    justify-content: center;
+}
+
+.portfolio__card {
+    border: 1px solid rgba(238, 238, 238, 1);
+    width: 370px;
+    height: 404px;
+}
+
+.portfolio__content {
+    padding: 0px 18px;
+}
+
+.portfolio__name {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 6%;
+    color: rgba(33, 33, 33, 1);
+}
+
+.portfolio__type {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 3%;
+    color: rgba(117, 117, 117, 1);
+}
